@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+.app {
+  min-height: 100vh;
+  transition: background 0.8s ease;
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px 60px;
+  position: relative;
+  overflow-x: hidden;
+}
