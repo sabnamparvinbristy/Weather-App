@@ -6,7 +6,6 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20App-4f8ef7?style=for-the-badge)](https://weather-1lhi8910g-sabnam-parvin-bristy-s-projects.vercel.app)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
 [![OpenWeatherMap](https://img.shields.io/badge/API-OpenWeatherMap-orange?style=for-the-badge)](https://openweathermap.org)
 
 <br />
