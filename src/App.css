@@ -232,3 +232,73 @@
   border-radius: 50%;
   animation: spin 0.75s linear infinite;
 }
+/* weather card */
+.card {
+  border-radius: 24px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 24px 18px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.city-name {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  margin-bottom: 2px;
+}
+
+.country {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.cond-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 24px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.hero-right { text-align: right; }
+
+.big-temp {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -4px;
+}
+
+.temp-unit {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+.feels {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.hilo {
+  font-size: 12px;
+  margin-top: 3px;
+  font-weight: 600;
+}
+
+.card-divider {
+  height: 1px;
+  margin: 0 24px 18px;
+}
