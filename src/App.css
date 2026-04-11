@@ -393,3 +393,19 @@
 .dk .search-input    { color: #e8edf5; }
 .dk .search-input::placeholder { color: rgba(255,255,255,0.28); }
 .dk .stat-label      { color: rgba(232,237,245,0.28); }
+
+/* light mode text helper */
+.lk .hdr-brand-name,
+.lk .city-name       { color: #0f172a; }
+.lk .hdr-date,
+.lk .country         { color: rgba(15,23,42,0.45); }
+.lk .fc-title        { color: rgba(15,23,42,0.4); }
+.lk .feels           { color: rgba(15,23,42,0.55); }
+.lk .hilo            { color: rgba(15,23,42,0.45); }
+.lk .fc-day          { color: rgba(15,23,42,0.5); }
+.lk .fc-desc         { color: rgba(15,23,42,0.4); }
+.lk .empty-title     { color: rgba(15,23,42,0.7); }
+.lk .empty-sub       { color: rgba(15,23,42,0.4); }
+.lk .search-input    { color: #0f172a; }
+.lk .search-input::placeholder { color: rgba(15,23,42,0.35); }
+.lk .stat-label      { color: rgba(15,23,42,0.4); }
