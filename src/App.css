@@ -63,6 +63,27 @@
 }
 
 .hdr-date {
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 2px;
+}
+
+/* button */
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 14px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.toggle-btn:hover {
+  opacity: 0.88;
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
 }
