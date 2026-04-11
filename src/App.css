@@ -362,6 +362,14 @@
 .fc-temp { font-size: 13px; font-weight: 700; }
 .fc-desc { font-size: 12px; margin-top: 4px; text-transform: capitalize; }
 
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+}
 /* empty part */
 .empty {
   text-align: center;
@@ -393,6 +401,7 @@
 .dk .search-input    { color: #e8edf5; }
 .dk .search-input::placeholder { color: rgba(255,255,255,0.28); }
 .dk .stat-label      { color: rgba(232,237,245,0.28); }
+.dk .footer { color: rgba(232, 237, 245, 0.28); }
 
 /* light mode text helper */
 .lk .hdr-brand-name,
@@ -409,7 +418,7 @@
 .lk .search-input    { color: #0f172a; }
 .lk .search-input::placeholder { color: rgba(15,23,42,0.35); }
 .lk .stat-label      { color: rgba(15,23,42,0.4); }
-
+.lk .footer { color: rgba(15, 23, 42, 0.38); }
 /* responsive */
 @media (max-width: 640px) {
   .app { padding: 24px 14px 50px; }

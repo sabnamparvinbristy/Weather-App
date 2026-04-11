@@ -382,8 +382,14 @@ export default function WeatherApp() {
             <div className="empty-sub">Current conditions · 5-day forecast · Wind & humidity</div>
           </div>
         )}
+        {/* footer */}
+<div className="footer">
+  © 2026 Sabnam Parvin Bristy — All rights reserved<br />
+  Narayanganj, Bangladesh
+</div>
 
       </div>
+      
     </div>
   );
 }
