@@ -377,3 +377,19 @@
 
 .empty-title { font-size: 17px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.3px; }
 .empty-sub   { font-size: 12px; line-height: 2; }
+
+/* dark mode text helper */
+.dk .hdr-brand-name,
+.dk .city-name       { color: #fff; }
+.dk .hdr-date,
+.dk .country         { color: rgba(232,237,245,0.3); }
+.dk .fc-title        { color: rgba(232,237,245,0.35); }
+.dk .feels           { color: rgba(232,237,245,0.45); }
+.dk .hilo            { color: rgba(232,237,245,0.35); }
+.dk .fc-day          { color: rgba(232,237,245,0.55); }
+.dk .fc-desc         { color: rgba(232,237,245,0.25); }
+.dk .empty-title     { color: rgba(255,255,255,0.55); }
+.dk .empty-sub       { color: rgba(255,255,255,0.25); }
+.dk .search-input    { color: #e8edf5; }
+.dk .search-input::placeholder { color: rgba(255,255,255,0.28); }
+.dk .stat-label      { color: rgba(232,237,245,0.28); }
