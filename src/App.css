@@ -323,7 +323,42 @@
   background: rgba(255,255,255,0.06) !important;
 }
 
-.stat-icon  { font-size: 18px; }
+.stat-icon  { font-size: 22px; }
 .stat-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.7px; }
 .stat-val   { font-size: 12px; font-weight: 700; }
+
+/* forecast part */
+.fc-section { margin-bottom: 10px; }
+
+.fc-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+}
+
+.fc-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.fc-card {
+  flex: 1;
+  min-width: 52px;
+  border-radius: 18px;
+  padding: 16px 6px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.fc-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
+}
+
+.fc-day  { font-size: 12px; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+.fc-icon { font-size: 22px; margin-bottom: 8px; }
+.fc-temp { font-size: 13px; font-weight: 700; }
+.fc-desc { font-size: 12px; margin-top: 4px; text-transform: capitalize; }
 
