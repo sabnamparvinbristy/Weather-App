@@ -409,3 +409,33 @@
 .lk .search-input    { color: #0f172a; }
 .lk .search-input::placeholder { color: rgba(15,23,42,0.35); }
 .lk .stat-label      { color: rgba(15,23,42,0.4); }
+
+/* responsive */
+@media (max-width: 640px) {
+  .app { padding: 24px 14px 50px; }
+  .big-temp { font-size: 56px; }
+  .city-name { font-size: 22px; }
+  .orb1 { width: 350px; height: 350px; }
+  .orb2 { width: 280px; height: 280px; }
+}
+
+@media (max-width: 500px) {
+  .app { padding: 20px 12px 48px; }
+  .city-name  { font-size: 20px; }
+  .big-temp   { font-size: 50px; letter-spacing: -3px; }
+  .temp-unit  { font-size: 17px; }
+  .hero-top   { padding: 18px 18px 14px; }
+  .card-divider { margin: 0 18px 14px; }
+  .hdr-clock  { font-size: 15px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .fc-card    { min-width: 48px; padding: 12px 4px; }
+  .fc-icon    { font-size: 18px; }
+  .fc-temp    { font-size: 12px; }
+}
+
+@media (max-width: 380px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .fc-desc    { display: none; }
+  .toggle-btn { padding: 5px 10px; font-size: 11px; }
+  .fc-card    { min-width: 42px; padding: 10px 3px; }
+}
