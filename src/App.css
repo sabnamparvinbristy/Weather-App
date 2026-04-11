@@ -302,3 +302,28 @@
   height: 1px;
   margin: 0 24px 18px;
 }
+/* stats grids */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  overflow: hidden;
+  border-radius: 0 0 24px 24px;
+}
+.stat-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 6px;
+  text-align: center;
+  transition: background 0.15s;
+}
+.stat-tile:hover {
+  background: rgba(255,255,255,0.06) !important;
+}
+
+.stat-icon  { font-size: 18px; }
+.stat-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.7px; }
+.stat-val   { font-size: 12px; font-weight: 700; }
+
