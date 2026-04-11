@@ -46,3 +46,23 @@
   gap: 10px;
   flex-shrink: 0;
 }
+
+/* time,clock,date */
+.hdr-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hdr-clock {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.hdr-date {
+  font-size: 11px;
+  margin-top: 2px;
+}
