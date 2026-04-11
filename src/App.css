@@ -362,3 +362,18 @@
 .fc-temp { font-size: 13px; font-weight: 700; }
 .fc-desc { font-size: 12px; margin-top: 4px; text-transform: capitalize; }
 
+/* empty part */
+.empty {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.empty-icon {
+  font-size: 50px;
+  margin-bottom: 16px;
+  animation: pulse 3s ease-in-out infinite;
+  display: block;
+}
+
+.empty-title { font-size: 17px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.3px; }
+.empty-sub   { font-size: 12px; line-height: 2; }
