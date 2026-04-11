@@ -31,6 +31,41 @@
   overflow-x: hidden;
 }
 
+/* atmospheric depth orbs */
+.orb {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  animation: orbFloat 18s ease-in-out infinite;
+}
+.orb1 {
+  width: 500px;
+  height: 500px;
+  top: -120px;
+  right: -100px;
+  animation-duration: 18s;
+}
+.orb2 {
+  width: 380px;
+  height: 380px;
+  bottom: -80px;
+  left: -80px;
+  animation-duration: 24s;
+  animation-delay: -8s;
+}
+
+.container {
+  width: 100%;
+  max-width: 620px;
+  position: relative;
+  z-index: 1;
+}
+
+.up  { animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.up2 { animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both; }
+
+
 /* header */
 .hdr {
   display: flex;
@@ -156,5 +191,23 @@
   transform: translateY(0);
 }
 .search-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* unit toggle */
+.unit-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 22px;
+}
+
+.unit-btn {
+  border-radius: 14px;
+  padding: 5px 16px;
+  font-size: 12px;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.unit-btn:hover { transform: translateY(-1px); }
 
 
