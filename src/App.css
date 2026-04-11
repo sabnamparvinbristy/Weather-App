@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
 .app {
   min-height: 100vh;
   transition: background 0.8s ease;
@@ -8,4 +9,40 @@
   padding: 32px 16px 60px;
   position: relative;
   overflow-x: hidden;
+}
+
+/* header */
+.hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hdr-brand {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+
+.hdr-brand-icon {
+  font-size: 30px;
+  flex-shrink: 0;
+}
+
+.hdr-brand-name {
+  font-size: 23px;
+  font-weight: 1000;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+
+.hdr-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
