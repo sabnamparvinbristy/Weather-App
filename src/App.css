@@ -210,4 +210,11 @@
 }
 .unit-btn:hover { transform: translateY(-1px); }
 
-
+/* error box */
+.error-box {
+  border-radius: 16px;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  font-weight: 600;
+}
