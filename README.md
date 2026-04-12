@@ -4,8 +4,7 @@
 
 <br />
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20App-4f8ef7?style=for-the-badge)](https://weather-1lhi8910g-sabnam-parvin-bristy-s-projects.vercel.app)
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20App-4f8ef7?style=for-the-badge)](https://weather-app-eight-zeta-13.vercel.app/)
 [![OpenWeatherMap](https://img.shields.io/badge/API-OpenWeatherMap-orange?style=for-the-badge)](https://openweathermap.org)
 
 <br />
@@ -37,7 +36,7 @@
 
 ## 🚀 Live Demo
 
-🔗 **[https://weather-1lhi8910g-sabnam-parvin-bristy-s-projects.vercel.app](https://weather-1lhi8910g-sabnam-parvin-bristy-s-projects.vercel.app)**
+🔗 **[https://weather-1lhi8910g-sabnam-parvin-bristy-s-projects.vercel.app](https://weather-app-eight-zeta-13.vercel.app/)**
 
 <br />
 
