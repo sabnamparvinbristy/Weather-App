@@ -12,10 +12,10 @@
 ## 📸 Screenshots
 
 ### 🌙 Dark Mode (with Output)
-![Dark Mode Screenshot](https://raw.githubusercontent.com/sabnamparvinbristy/Weather-App/8cf16f1f99d7781258f8efc306f17de26929d1f4/nightmodewithoutput.jpeg)
+![Dark Mode Screenshot](https://github.com/sabnamparvinbristy/Weather-App/blob/f883beefb874df3857582a7548eb5c1936b82068/Screenshot_12-4-2026_22460_weather-app-eight-zeta-13.vercel.app.jpeg)
 
 ### ☀️ Day Mode (with Output)
-![Day Mode Screenshot](https://raw.githubusercontent.com/sabnamparvinbristy/Weather-App/0eec2744631361bcc38e2a0a306aa4a16c1bfcb5/daymodewithoutput.jpeg)
+![Day Mode Screenshot](https://github.com/sabnamparvinbristy/Weather-App/blob/f883beefb874df3857582a7548eb5c1936b82068/Screenshot_12-4-2026_224645_weather-app-eight-zeta-13.vercel.app.jpeg)
 
 <br />
 
